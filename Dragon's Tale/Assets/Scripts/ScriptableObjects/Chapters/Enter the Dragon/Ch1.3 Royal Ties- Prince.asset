@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c309ab7d0614444fa65b9c1467fa022, type: 3}
+  m_Name: Ch1.3 Royal Ties- Prince
+  m_EditorClassIdentifier: 
+  storyText: 'Finally, with the Knight dealt with, you have time to ponder what to
+    do with the Prince. Will you:
+
+
+    a) Eat him for tasty breakfast! Royalty always tastes the best.
+
+    b) Ransom him for money! Gotta grow the hoard.
+
+    c) Keep him around for entertainment! After all, it gets lonely in your lair with
+    no one to speak to, and a Prince will surely provide pleasing songs and good conversation,
+    at least for a few months.  '
+  chapterTitle: Royal Ties-Princess
+  ends:
+  - keystring: a
+    endDesciption: You decide to turn him into a snack right then, gobbling him up
+      happily. He really does live up to expectations!
+    valueChapter: {fileID: 0}
+  - keystring: b
+    endDesciption: You decide to ransom him for a pretty penny. Being a dragon, it's
+      only natural that you'd want to get as much gold as you could collect into your
+      lair. The humans almost don't make the payment, though, and you're pretty sure
+      you've bankrupted the kingdom, but what do you care? You're a dragon!
+    valueChapter: {fileID: 0}
+  - keystring: c
+    endDesciption: You decide to keep him around for a while and see what they teach
+      younglings these days. It turns out he's a talented singer, dancer, philosopher,
+      historian, and actress. You quite enjoy his presence, though after a few months
+      you do start to bore of him.
+    valueChapter: {fileID: 0}

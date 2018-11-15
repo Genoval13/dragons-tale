@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c309ab7d0614444fa65b9c1467fa022, type: 3}
+  m_Name: Ch1.1 Gender Equality
+  m_EditorClassIdentifier: 
+  storyText: 'Chapter 1.1
+
+    Gender Equality
+
+
+    So, as dragons are wont to do, one day you decide that you''d like to kidnap some
+    royalty. Because you can. Traditionally, a majestic wyrm such as yourself would
+    terrorize a kingdom into submission and nab a princess while you''re at it, but
+    you find yourself with choices today. Lucky you! Do you:
+
+
+    a) Stick with tradition and kidnap a beautiful princess
+
+    b) Break tradition and go for a handsome prince? After all, this is a gender equal
+    society we live in, so why shouldn''t he be fair game too?'
+  chapterTitle: Gender Equality
+  ends:
+  - keystring: a
+    endDesciption: Ah, a fine choice! Her girlish screams echo across the capital
+      as you fly away with her in your talons.
+    valueChapter: {fileID: 11400000, guid: f55a9261f5127465a90636ab929ebe52, type: 2}
+  - keystring: b
+    endDesciption: Ah, an interesting choice. His girlish screams echo across the
+      capital as you fly away with him in your talons.
+    valueChapter: {fileID: 0}

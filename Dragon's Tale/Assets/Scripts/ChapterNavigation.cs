@@ -27,6 +27,7 @@ public class ChapterNavigation : MonoBehaviour {
         if (endingDictionary.ContainsKey(choiceLetter))
         {
             currentChapter = endingDictionary[choiceLetter];
+            Debug.Log(currentChapter);
             controller.DisplayChapterText();
         }
     }

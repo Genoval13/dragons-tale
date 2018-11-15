@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c309ab7d0614444fa65b9c1467fa022, type: 3}
+  m_Name: Prologue 2
+  m_EditorClassIdentifier: 
+  storyText: "Wonderful! Now that we know what color you are, let's decide what gender
+    of dragon you are. Are you: \n\na) Male\nb) Female"
+  chapterTitle: Choose your gender
+  ends:
+  - keystring: a
+    endDesciption: It's a boy! Congratulations!
+    valueChapter: {fileID: 11400000, guid: b85aecdbfcb80423aa98d2ec57663ba5, type: 2}
+  - keystring: b
+    endDesciption: It's a girl! Congratulations!
+    valueChapter: {fileID: 11400000, guid: c9f402f7a0502473eb0940d4de305837, type: 2}

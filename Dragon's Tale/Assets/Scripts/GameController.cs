@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour {
 
     [HideInInspector] public ChapterNavigation chapterNavigation;
     [HideInInspector] public List<string> playerChoices = new List<string>();
+    [HideInInspector] public InputField inputField;
 
     List<string> storyLog = new List<string>();
 

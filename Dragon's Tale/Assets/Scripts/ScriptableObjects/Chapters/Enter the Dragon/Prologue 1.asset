@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c309ab7d0614444fa65b9c1467fa022, type: 3}
+  m_Name: Prologue 1
+  m_EditorClassIdentifier: 
+  storyText: 'Prologue: Enter the Dragon
+
+
+    You are a dragon. You are a magnificent, awesome, scaly, fire breathing wyrm.
+    You make cities tremble, kingdoms fall, and maidens quake with terror. But before
+    you can begin your story, we need to more a little more about you. Let''s start
+    with the color of your scales. Are they:
+
+
+    (Please type the letter of your choice and hit ENTER to continue)
+
+
+    a) Red
+
+    b) Purple
+
+    c) Gold'
+  chapterTitle: Choose your color
+  ends:
+  - keystring: a
+    endDesciption: You are a fiery red dragon!
+    valueChapter: {fileID: 11400000, guid: bf9f714c13c364dfc8daf2ff16bbe383, type: 2}
+  - keystring: b
+    endDesciption: You are a regal purple dragon!
+    valueChapter: {fileID: 11400000, guid: bf9f714c13c364dfc8daf2ff16bbe383, type: 2}
+  - keystring: c
+    endDesciption: You are a shiny gold dragon!
+    valueChapter: {fileID: 11400000, guid: bf9f714c13c364dfc8daf2ff16bbe383, type: 2}

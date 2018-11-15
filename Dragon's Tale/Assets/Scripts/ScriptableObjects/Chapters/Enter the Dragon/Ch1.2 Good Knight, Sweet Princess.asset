@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c309ab7d0614444fa65b9c1467fa022, type: 3}
+  m_Name: Ch1.2 Good Knight, Sweet Princess
+  m_EditorClassIdentifier: 
+  storyText: 'Chapter 1.2
+
+    Good Knight, Sweet Prince(ess)
+
+
+    With the lovely princess squirming in your talons, you swiftly return to your
+    lair to decide what to do with her. But before you have more than a few hours
+    to ponder, a brash, rude Knight interrupts your thoughts by barging into your
+    lair! "Return to me the Princess, and I may let you live, wyrm!" they declare
+    pompously. You''ll show them, won''t you? How will you deal with this impetuous
+    Knight?
+
+
+    a) Roast them alive, then eat them (Yum!)
+
+    b) Tear them to shreds with your claws (Ouch!)
+
+    c) Seduce the Knight and convince them to give up on the Princess (What?)'
+  chapterTitle: Knight-Princess
+  ends:
+  - keystring: a
+    endDesciption: You let loose a massive breath of a fire, roasting the Knight where
+      they stand! After peeling off their armor, they make a lovely meal. A little
+      stringy though...
+    valueChapter: {fileID: 0}
+  - keystring: b
+    endDesciption: You tear into them with your freshly manicured claws, ripping them
+      to bits for the birds. Good riddance, and don't bother anymore dragons!
+    valueChapter: {fileID: 0}
+  - keystring: c
+    endDesciption: You, uh... seduce the Knight, pushing them over gently as they
+      charge you. "Silly Knight," you say sultrily, plucking off one piece of armor
+      at a time. The Knight gives in to your advances reluctantly, and you two head
+      somewhere more private for a night they'll never forget... Next morning, the
+      Knight rides back into the city, armorless. You decided to keep a momento.
+    valueChapter: {fileID: 0}
