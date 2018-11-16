@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{CC89228E-6A4F-C0AF-7E2C-F774E185F411}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChapterNavigation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TextInput.cs">
     <Files>
       <File FileName="Assets/Scripts/Chapter.cs" Line="12" Column="2" />
       <File FileName="Assets/Scripts/ChapterNavigation.cs" Line="21" Column="80" />

@@ -22,11 +22,11 @@ public class ChapterNavigation : MonoBehaviour {
         }
     }
 
-    public void AttemptToChangeChapters(string choiceLetter)
+    public void AttemptToChangeChapters(int endingNumber, string choiceLetter)
     {
         if (endingDictionary.ContainsKey(choiceLetter))
         {
-            currentChapter = endingDictionary[choiceLetter];
+            currentChapter = currentChapter.ends[endingNumber].valueChapter;
             controller.DisplayChapterText();
         }
     }

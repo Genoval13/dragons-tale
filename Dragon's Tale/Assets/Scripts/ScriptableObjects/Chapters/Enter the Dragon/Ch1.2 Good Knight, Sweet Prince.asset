@@ -34,15 +34,15 @@ MonoBehaviour:
     endDesciption: You let loose a massive breath of a fire, roasting the Knight where
       they stand! After peeling off their armor, they make a lovely meal. A little
       stringy though...
-    valueChapter: {fileID: 0}
+    valueChapter: {fileID: 11400000, guid: 45ebaad2c1ec64d188edddf1a905e4b5, type: 2}
   - keystring: b
     endDesciption: You tear into them with your freshly manicured claws, ripping them
       to bits for the birds. Good riddance, and don't bother anymore dragons!
-    valueChapter: {fileID: 0}
+    valueChapter: {fileID: 11400000, guid: 45ebaad2c1ec64d188edddf1a905e4b5, type: 2}
   - keystring: c
     endDesciption: You, uh... seduce the Knight, pushing them over gently as they
       charge you. "Silly Knight," you say sultrily, plucking off one piece of armor
       at a time. The Knight gives in to your advances reluctantly, and you two head
       somewhere more private for a night they'll never forget... Next morning, the
       Knight rides back into the city, armorless. You decided to keep a momento.
-    valueChapter: {fileID: 0}
+    valueChapter: {fileID: 11400000, guid: 45ebaad2c1ec64d188edddf1a905e4b5, type: 2}

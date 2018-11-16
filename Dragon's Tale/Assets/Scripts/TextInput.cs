@@ -22,10 +22,10 @@ public class TextInput : MonoBehaviour
 
     void AcceptStringInput(string userInput)
     {
-        userInput = userInput.ToLower();
-
-        if (userInput != null)
+        if (userInput != "")
         {
+            userInput = userInput.ToLower();
+
             for (int i = 0; i < chapterNavigation.currentChapter.ends.Length; i++)
             {
                 if (userInput == chapterNavigation.currentChapter.ends[i].keystring)
@@ -33,8 +33,8 @@ public class TextInput : MonoBehaviour
                     controller.LogStringWithReturn(chapterNavigation.currentChapter.ends[i].endDesciption);
 
                     InputComplete();
-                    
-                    chapterNavigation.AttemptToChangeChapters(userInput);
+
+                    chapterNavigation.AttemptToChangeChapters(i, userInput);
                 }
             }
         }

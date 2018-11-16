@@ -37,9 +37,9 @@ public class GameController : MonoBehaviour {
 
         string joinedEndDescriptions = string.Join("\n", playerChoices.ToArray());
 
-        string combinedText = chapterNavigation.currentChapter.storyText + "\n";
+        string nextText = chapterNavigation.currentChapter.storyText;
 
-        LogStringWithReturn(combinedText);
+        LogStringWithReturn(nextText);
     }
 
     private void UnpackChapter()
