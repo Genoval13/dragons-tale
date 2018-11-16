@@ -8,6 +8,4 @@ Once you've downloaded Unity, fork and clone this repo to your machine and open 
 
 #### Video Demonstration
 
-<video width="320" height="240" controls>
-  <source src="Q3 ReadMe vid.mov" type="video/mp4">
-</video>
+<img src="Q3 ReadMe vid.gif">
