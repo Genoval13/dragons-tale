@@ -9,25 +9,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c309ab7d0614444fa65b9c1467fa022, type: 3}
-  m_Name: Ch1.3b A Daring Escape- Princess
+  m_Name: Ch1.3b A Daring Escape- Prince
   m_EditorClassIdentifier: 
-  storyText: 'After months of being held captive by you, the Princess starts to get
-    restless, obviously planning to run away. Finally, she musters up the courage
-    to put her plan in action. To her credit, it is a great plan-- she just didn''t
-    account for your superior intellect. How do you respond to her escape?
+  storyText: 'After months of being held captive by you, the Prince starts to get
+    restless, obviously planning to run away. Finally, he musters up the courage to
+    put his plan in action. To his credit, it is a great plan-- he just didn''t account
+    for your superior intellect. How do you respond to his escape?
 
 
-    a) Hunt her down and make her regret having tried to make a fool of you
+    a) Hunt him down and make him regret having tried to make a fool of you.
 
-    b) Let her go and wish her the best. She gave you plenty of good times to remember
-    her by, and you''d rather not eat her.'
-  chapterTitle: Princess Escape
+    b) Let him go and wish him the best. He gave you plenty of good times to remember
+    him by, and you''d rather not eat him.'
+  chapterTitle: Prince Escape
   ends:
   - keystring: a
-    endDesciption: You fly after her, tormenting her for nearly an hour from the air
-      before finally going in for the kill. She tastes even better seasoned with terror.
+    endDesciption: You fly after him, tormenting him for nearly an hour from the air
+      before finally going in for the kill. He tastes even better seasoned with terror.
     valueChapter: {fileID: 0}
   - keystring: b
-    endDesciption: She safely makes her way back to the kingdom's capital and proceeds
+    endDesciption: He safely makes his way back to the kingdom's capital and proceeds
       to tell everyone tales about you. You can only hope they're good ones...
     valueChapter: {fileID: 0}
